@@ -1,0 +1,18 @@
+I'm finalizing the website for NYAUTSA SS TRADING AND PROJECTS (construction company, currently shown as "Simbarashe Sithole Construction" placeholder). Use the "Refined & Editorial" build at https://celebrated-crisp-00ed91.netlify.app/ as the base — keep it simple, no new features or pages beyond what's already there.
+
+Update the following, using only real content (no placeholders left behind):
+1. Replace all instances of "Simbarashe Sithole Construction" / "SS Construction" with "NYAUTSA SS TRADING AND PROJECTS" — site title, footer, header, contact section.
+2. Replace project images for Magalise, Danville, Mams, and Gasfontein with the photos provided in the /photos folder (currently a placeholder mapping — I'll confirm the correct photo-to-project match with the client shortly and send a follow-up to swap them if needed).
+3. Update the services section to list:
+   - New home construction (full builds, foundation to roof)
+   - Foundations & excavation
+   - Brickwork & walling
+   - Plastering & finishes
+   - Roofing
+   - Boundary walls & palisade fencing
+   - Paving
+4. Update contact details across the site (footer, contact section, any CTA buttons) to phone: +27 68 446 1635. Leave WhatsApp/email fields as they are for now — more contact details coming soon.
+5. No logo available — keep the current text-only header/wordmark styling as is (don't leave a placeholder logo box).
+6. Do a final pass to remove any remaining lorem ipsum, sample text, or placeholder pricing/content.
+
+Don't add new sections, forms, animations, or pages — keep it exactly as simple as the current concept. Once done, redeploy to the same Netlify site and confirm the live URL.
