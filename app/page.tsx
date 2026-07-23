@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Building2, Brush, Fence, Hammer, House, Phone, Route, Shovel } from "lucide-react";
 
 import { HeroSection } from "@/components/hero-section";
@@ -20,12 +21,15 @@ export default function Home() {
     <main>
       <nav className="flex items-center justify-between gap-6 border-b border-[#ddd7cb] bg-[#f7f4ee] px-5 py-5 sm:px-8 lg:px-12">
         <a href="#" aria-label="NYAUTSA SS Trading and Projects home">
-          <div className="font-serif text-sm uppercase leading-5 tracking-normal text-[#161713] sm:text-base">
-            NYAUTSA SS Trading and Projects
-          </div>
-          <div className="mt-1 text-[10px] uppercase tracking-[0.2em] text-[#6b6a5f]">
-            Buildings and construction
-          </div>
+          <Image
+            src="/logo_final.png"
+            alt="NYAUTSA SS Trading and Projects"
+            width={1800}
+            height={520}
+            priority
+            sizes="(min-width: 640px) 220px, 160px"
+            className="h-auto w-[160px] sm:w-[220px]"
+          />
         </a>
         <div className="hidden items-center gap-8 text-sm text-[#65645b] md:flex">
           <a href="#projects">Projects</a>

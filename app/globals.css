@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 :root {
+  color-scheme: light;
   --background: #f7f4ee;
   --foreground: #161713;
   --muted: #6b6a5f;
@@ -56,4 +57,49 @@ button:focus-visible {
 ::selection {
   background: rgba(157, 78, 49, 0.22);
   color: var(--foreground);
+}
+
+.nyautsa-tile {
+  filter: grayscale(0.25) sepia(0.32) saturate(0.75) brightness(1.05) hue-rotate(-6deg)
+    contrast(0.97);
+}
+
+.nyautsa-map-marker {
+  background: transparent;
+  border: none;
+}
+
+.leaflet-container {
+  background: var(--paper);
+  font-family: var(--font-sans);
+}
+
+.leaflet-control-zoom a {
+  border-color: var(--line) !important;
+  background: var(--paper) !important;
+  color: var(--foreground) !important;
+}
+
+.leaflet-control-zoom a:hover {
+  background: var(--background) !important;
+  color: var(--olive) !important;
+}
+
+.leaflet-control-attribution {
+  background: rgba(255, 253, 250, 0.82) !important;
+  color: var(--muted) !important;
+  font-size: 10px !important;
+}
+
+.leaflet-control-attribution a {
+  color: var(--olive) !important;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 2px;
+  background: var(--paper);
+}
+
+.leaflet-popup-tip {
+  background: var(--paper);
 }

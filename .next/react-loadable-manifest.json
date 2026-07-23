@@ -1,4 +1,11 @@
 {
+  "components\\project-map-client.tsx -> @/components/project-map-canvas": {
+    "id": "components\\project-map-client.tsx -> @/components/project-map-canvas",
+    "files": [
+      "static/css/_app-pages-browser_components_project-map-canvas_tsx.css",
+      "static/chunks/_app-pages-browser_components_project-map-canvas_tsx.js"
+    ]
+  },
   "node_modules\\next\\dist\\client\\dev\\hot-reloader\\app\\use-websocket.js -> @vercel/turbopack-ecmascript-runtime/browser/dev/hmr-client/hmr-client.ts": {
     "id": "node_modules\\next\\dist\\client\\dev\\hot-reloader\\app\\use-websocket.js -> @vercel/turbopack-ecmascript-runtime/browser/dev/hmr-client/hmr-client.ts",
     "files": [

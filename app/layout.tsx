@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Libre_Baskerville } from "next/font/google";
 import "./globals.css";
 
@@ -18,6 +18,15 @@ export const metadata: Metadata = {
   title: "NYAUTSA SS Trading and Projects | Residential Construction Gauteng",
   description:
     "Residential construction, foundations, brickwork, roofing, paving, boundary walls and finishing services in Gauteng and surrounding areas.",
+  icons: {
+    icon: "/logo_icon.png",
+    shortcut: "/logo_icon.png",
+    apple: "/logo_icon.png",
+  },
+};
+
+export const viewport: Viewport = {
+  colorScheme: "light",
 };
 
 export default function RootLayout({

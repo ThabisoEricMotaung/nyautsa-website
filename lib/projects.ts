@@ -26,11 +26,7 @@ export type ProjectLocation = {
   projectTitle: string;
   locationLabel: string;
   region: string;
-  mapPosition: {
-    x: number;
-    y: number;
-  };
-  coordinates?: {
+  coordinates: {
     latitude: number;
     longitude: number;
   };
@@ -154,7 +150,7 @@ export const nyautsaProjectLocations: ProjectLocation[] = [
     projectTitle: "Danville Residence",
     locationLabel: "Danville",
     region: "Gauteng",
-    mapPosition: { x: 46, y: 42 },
+    coordinates: { latitude: -25.722, longitude: 28.1425 },
     approximate: true,
   },
   {
@@ -162,7 +158,7 @@ export const nyautsaProjectLocations: ProjectLocation[] = [
     projectTitle: "Mamelodi project",
     locationLabel: "Mamelodi",
     region: "Gauteng",
-    mapPosition: { x: 68, y: 39 },
+    coordinates: { latitude: -25.7099, longitude: 28.3733 },
     approximate: true,
   },
   {
@@ -170,7 +166,7 @@ export const nyautsaProjectLocations: ProjectLocation[] = [
     projectTitle: "Garsfontein project",
     locationLabel: "Garsfontein",
     region: "Gauteng",
-    mapPosition: { x: 61, y: 51 },
+    coordinates: { latitude: -25.8043, longitude: 28.2867 },
     approximate: true,
   },
   {
@@ -178,7 +174,7 @@ export const nyautsaProjectLocations: ProjectLocation[] = [
     projectTitle: "Magalies residence",
     locationLabel: "Magalies",
     region: "Gauteng",
-    mapPosition: { x: 28, y: 36 },
+    coordinates: { latitude: -25.6867, longitude: 28.1731 },
     approximate: true,
   },
 ];
