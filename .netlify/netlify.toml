@@ -1,14 +1,22 @@
-plugins = []
-headers = []
-redirects = []
+headersOrigin = "inline"
+redirectsOrigin = "inline"
 
 [functions]
 
 [functions."*"]
 
+[[plugins]]
+origin = "default"
+package = "@netlify/plugin-nextjs"
+pinned_version = "5"
+
+[plugins.inputs]
+
 [build]
-publish = "C:\\Users\\u05059322\\OneDrive - University of Pretoria\\Acer\\My User Documents\\Side Projects\\AiForm Studio\\NYAUTSA SS TRADING\\nyautsa-website\\nyautsa-website"
-publishOrigin = "default"
+publish = "C:\\Users\\u05059322\\OneDrive - University of Pretoria\\Acer\\My User Documents\\Side Projects\\AiForm Studio\\NYAUTSA SS TRADING\\nyautsa-website\\nyautsa-website\\.next"
+publishOrigin = "ui"
+commandOrigin = "ui"
+command = "npm run build"
 
 [build.environment]
 
@@ -23,3 +31,39 @@ publishOrigin = "default"
 [build.processing.js]
 
 [build.services]
+
+[[headers]]
+for = "/_next/static/*"
+
+[headers.values]
+Cache-Control = "public, max-age=31536000, immutable"
+
+[[redirects]]
+from = "/_next/image"
+to = "/.netlify/images?url=:url&w=:width&q=:quality"
+status = 200.0
+force = false
+
+[redirects.query]
+url = ":url"
+w = ":width"
+q = ":quality"
+
+[redirects.conditions]
+
+[redirects.headers]
+
+[[redirects]]
+from = "/_ipx/*"
+to = "/.netlify/images?url=:url&w=:width&q=:quality"
+status = 200.0
+force = false
+
+[redirects.query]
+url = ":url"
+w = ":width"
+q = ":quality"
+
+[redirects.conditions]
+
+[redirects.headers]
