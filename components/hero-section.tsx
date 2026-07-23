@@ -44,15 +44,15 @@ export function HeroSection() {
 
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
               <Button asChild size="lg">
-                <a href="#projects">
-                  View recent work
-                  <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
-                </a>
-              </Button>
-              <Button asChild size="lg" variant="outline">
                 <a href="tel:+27684461635">
                   <Phone className="h-4 w-4" aria-hidden="true" />
                   Call +27 68 446 1635
+                </a>
+              </Button>
+              <Button asChild size="lg" variant="outline">
+                <a href="#projects">
+                  View recent work
+                  <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
                 </a>
               </Button>
             </div>
@@ -83,7 +83,7 @@ export function HeroSection() {
         >
           <Image
             src="/photos/danville/photo1.jpeg"
-            alt="Completed residential construction project in Danville, Gauteng"
+            alt="Completed Danville Residence construction project in Gauteng"
             fill
             priority
             sizes="(min-width: 1024px) 55vw, 100vw"
@@ -92,12 +92,12 @@ export function HeroSection() {
           <div className="absolute inset-0 bg-gradient-to-t from-[#161713]/45 via-transparent to-transparent" />
           <div className="absolute bottom-0 left-0 right-0 flex flex-col justify-between gap-5 border-t border-white/20 bg-[#161713]/78 p-5 text-[#fffdfa] backdrop-blur-sm sm:flex-row sm:items-end lg:p-7">
             <div>
-              <p className="text-[11px] font-medium uppercase tracking-[0.22em] text-white/60">
+              <p className="text-[11px] font-medium uppercase tracking-[0.22em] text-white/75">
                 Featured work
               </p>
-              <p className="mt-2 font-serif text-2xl">Danville residence</p>
+              <p className="mt-2 font-serif text-2xl">Danville Residence</p>
             </div>
-            <p className="max-w-[300px] text-sm leading-6 text-white/72">
+            <p className="max-w-[300px] text-sm leading-6 text-white/86">
               Exterior finishing, roofing, boundary walling and residential
               construction work.
             </p>
