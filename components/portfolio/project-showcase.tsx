@@ -252,11 +252,10 @@ function ProjectCTA() {
   return (
     <div className="mt-12 border-t border-[#ddd7cb] pt-7">
       <p className="max-w-[580px] text-sm leading-7 text-[#65645b]">
-        For a similar project, share your site, scope and preferred timing from
-        the final enquiry section.
+        For a similar project, share your site location, scope and preferred timing with us on WhatsApp.
       </p>
       <Button asChild className="mt-5" variant="outline">
-        <a href="#contact">
+        <a href="https://wa.me/27684461635?text=Hi%20Mandla%2C%20I%20found%20NYAUTSA%20online%20and%20would%20like%20a%20quotation%20for%20a%20building%20project." target="_blank" rel="noopener noreferrer">
           Start quotation enquiry
           <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
         </a>
