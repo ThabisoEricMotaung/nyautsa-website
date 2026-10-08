@@ -83,6 +83,9 @@ export default function Home() {
       <footer className="flex flex-col gap-3 border-t border-[#ddd7cb] px-5 py-6 sm:px-8 md:flex-row md:items-center md:justify-between lg:px-12">
         <div className="font-serif text-sm uppercase text-[#161713]">NYAUTSA SS Trading and Projects</div>
         <div className="text-sm text-[#6b6a5f]">Buildings, houses and construction. Phone: +27 68 446 1635</div>
+              <a href="https://aiformstudio.co.za/" target="_blank" rel="noopener noreferrer" className="text-xs text-[#6b6a5f] underline underline-offset-4 hover:text-[#161713]">
+          Built by AiForm Studio
+        </a>
       </footer>
     </main>
   );
