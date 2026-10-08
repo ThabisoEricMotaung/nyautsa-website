@@ -32,7 +32,7 @@ export function HeroSection() {
               Residential construction in Gauteng
             </div>
 
-            <h1 className="max-w-[760px] font-serif text-[clamp(3rem,8vw,6.6rem)] leading-[0.95] tracking-normal text-[#161713]">
+            <h1 className="max-w-[760px] font-serif text-[clamp(2.5rem,6vw,4.5rem)] leading-[1.08] tracking-normal text-[#161713] lg:text-[clamp(2.75rem,4vw,3.5rem)]">
               Homes built with discipline, detail and care.
             </h1>
 
