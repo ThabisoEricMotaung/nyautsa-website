@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import { HeroProjectSlider } from "@/components/hero-project-slider";
 import { motion } from "framer-motion";
 import { ArrowUpRight, Phone } from "lucide-react";
 
@@ -81,27 +81,7 @@ export function HeroSection() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
         >
-          <Image
-            src="/photos/danville/photo1.jpeg"
-            alt="Completed Danville Residence construction project in Gauteng"
-            fill
-            priority
-            sizes="(min-width: 1024px) 55vw, 100vw"
-            className="object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#161713]/45 via-transparent to-transparent" />
-          <div className="absolute bottom-0 left-0 right-0 flex flex-col justify-between gap-5 border-t border-white/20 bg-[#161713]/78 p-5 text-[#fffdfa] backdrop-blur-sm sm:flex-row sm:items-end lg:p-7">
-            <div>
-              <p className="text-[11px] font-medium uppercase tracking-[0.22em] text-white/75">
-                Featured work
-              </p>
-              <p className="mt-2 font-serif text-2xl">Danville Residence</p>
-            </div>
-            <p className="max-w-[300px] text-sm leading-6 text-white/86">
-              Exterior finishing, roofing, boundary walling and residential
-              construction work.
-            </p>
-          </div>
+          <HeroProjectSlider />
         </motion.div>
       </div>
     </section>
