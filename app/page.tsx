@@ -35,6 +35,7 @@ export default function Home() {
           <a href="#projects">Projects</a>
           <a href="#services">Services</a>
           <a href="#contact">Contact</a>
+          <a href="/request-quote">Request a quotation</a>
         </div>
         <a
           className="hidden items-center gap-2 rounded-sm bg-[#191a16] px-4 py-2 text-sm font-medium text-[#fffdfa] sm:flex"
@@ -72,6 +73,7 @@ export default function Home() {
         <div className="flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
           <h2 className="max-w-[460px] font-serif text-3xl leading-tight">Have a project in mind? Let's start building.</h2>
           <div className="flex flex-col items-start gap-3 md:items-end">
+            <a href="/request-quote" className="inline-flex min-h-11 items-center border border-white/40 px-5 py-3 text-sm text-white">Request a quotation</a>
             <a className="inline-flex min-h-11 items-center gap-2 rounded-sm bg-[#fffdfa] px-5 py-3 text-sm font-medium text-[#191a16] transition-colors hover:bg-[#eee9df] focus-visible:bg-[#eee9df]" href="tel:+27684461635">
               <Phone className="h-4 w-4" aria-hidden="true" />
               Call +27 68 446 1635

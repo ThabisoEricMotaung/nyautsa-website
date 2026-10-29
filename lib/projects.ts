@@ -71,16 +71,16 @@ export const nyautsaProjects: Project[] = [
     scope: "Residential construction and exterior finishing.",
     summary: "Residential construction and exterior finishing.",
     coverImage: {
-      src: "/photos/danville/photo1.jpeg",
+      src: "/photos/danville/2f169013-8f21-4c84-aa70-e90fba12bde2.JPG",
       alt: "Danville residential construction and exterior finishing",
     },
     gallery: [
       {
-        src: "/photos/danville/photo2.jpeg",
+        src: "/photos/danville/2df210f5-a6a1-4293-b2ca-249c1f084d4d.JPG",
         alt: "Additional view of Danville residential construction work",
       },
       {
-        src: "/photos/danville/photo3.jpeg",
+        src: "/photos/danville/c32ca3cf-c6d1-418f-bf40-639b61bc080b.JPG",
         alt: "Project detail from Danville Residence",
       },
     ],
@@ -98,16 +98,16 @@ export const nyautsaProjects: Project[] = [
     scope: "Brickwork, roofing, plastering and finishing.",
     summary: "Brickwork, roofing, plastering and finishing.",
     coverImage: {
-      src: "/photos/mams/photo1.jpeg",
+      src: "/photos/mamelodi/761d63d6-2a18-4884-aaee-2e7f37b20a57.JPG",
       alt: "Mamelodi project brickwork, roofing, plastering and finishing",
     },
     gallery: [
       {
-        src: "/photos/mams/photo2.jpeg",
+        src: "/photos/mamelodi/c190db1a-a58d-4f94-90c3-e54a5ef4f4ba.JPG",
         alt: "Additional view of Mamelodi project work",
       },
       {
-        src: "/photos/mams/photo3.jpeg",
+        src: "/photos/mamelodi/01d5c61a-e496-465f-9357-d116e04c8466.JPG",
         alt: "Project detail from Mamelodi project",
       },
     ],
@@ -125,16 +125,16 @@ export const nyautsaProjects: Project[] = [
     scope: "Site preparation and residential construction work.",
     summary: "Site preparation and residential construction work.",
     coverImage: {
-      src: "/photos/gasfontein/photo1.jpeg",
+      src: "/photos/gasfontein2/153223bc-3637-4143-a8cf-0e7a15740dd9.JPG",
       alt: "Garsfontein site preparation and residential construction work",
     },
     gallery: [
       {
-        src: "/photos/gasfontein/photo2.jpeg",
+        src: "/photos/gasfontein2/783918ab-1e0f-4d26-8f57-41dceefa250f.JPG",
         alt: "Additional view of Garsfontein project work",
       },
       {
-        src: "/photos/gasfontein/photo3.jpeg",
+        src: "/photos/gasfontein2/e47d109c-9d13-4c8a-972b-628180e0f9a1.JPG",
         alt: "Project detail from Garsfontein project",
       },
     ],
