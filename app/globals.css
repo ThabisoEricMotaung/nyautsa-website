@@ -105,3 +105,40 @@
 .leaflet-popup-tip {
   background: var(--paper);
 }
+
+/* Header navigation */
+.nyautsa-nav-links a {
+  position: relative;
+  padding-block: 0.5rem;
+  transition: color 180ms ease;
+}
+
+.nyautsa-nav-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background: #526b38;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 180ms ease;
+}
+
+.nyautsa-nav-links a:hover,
+.nyautsa-nav-links a:focus-visible {
+  color: #334321;
+}
+
+.nyautsa-nav-links a:hover::after,
+.nyautsa-nav-links a:focus-visible::after {
+  transform: scaleX(1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nyautsa-nav-links a,
+  .nyautsa-nav-links a::after {
+    transition: none;
+  }
+}
